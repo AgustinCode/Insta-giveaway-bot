@@ -21,19 +21,19 @@ class Crawler:
         self.wait = WebDriverWait(self.driver, 10)
     
     
-    def __init__(self, link):
-        self.link = link
-        
+    def __init__(self):
+        pass
         
     def findRecentGiveaways(self):
         giveaways = []
+        #Logic to find recent giveaways (complex, last thing to implement)
         return giveaways
     
     
     def scrapeFollowers(self, account):
         self.account = account
         account_link = f"https://www.instagram.com/{self.account}"
-        users = []
+        users = [] #Fill this list with JavaScript DOM exploit
         return users
     
     
