@@ -23,3 +23,16 @@ class Crawler:
     
     def __init__(self, link):
         self.link = link
+        
+        
+    def findRecentGiveaways():
+        giveaways = []
+        return giveaways
+    
+    
+    def scrapeFollowers():
+        users = []
+        return users
+    
+    
+    
