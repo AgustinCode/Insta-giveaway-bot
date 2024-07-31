@@ -25,12 +25,14 @@ class Crawler:
         self.link = link
         
         
-    def findRecentGiveaways():
+    def findRecentGiveaways(self):
         giveaways = []
         return giveaways
     
     
-    def scrapeFollowers():
+    def scrapeFollowers(self, account):
+        self.account = account
+        account_link = f"https://www.instagram.com/{self.account}"
         users = []
         return users
     

@@ -3,11 +3,11 @@ import time
 
 class Bot:
     
-    def __init__ (self, intervals, comments, users, links):
-        self.intervals = intervals #Intervals between comments
+    def __init__ (self, comments, users, links, intervals = 5):
         self.comments = comments #Times the bot tags someone
         self.users = users #List of users
         self.links = links #List of giveaway links
+        self.intervals = intervals #Intervals between comments
         
         
     def login(self, user, passw):
@@ -20,13 +20,9 @@ class Bot:
         
         
     def tagUser(self):
-        #Using selenium to find comment box
         pass
     
-    
-    def tagSomeone(self, user):
-        pass
-    
+
     
     def run(self):
         self.login()
